@@ -18,7 +18,7 @@ const userWon = (userChoice,compChoice)=>{
 }
 const compWon = (userChoice,compChoice)=>{
     computer.innerText = ++compScore;
-    msg.innerText = `${userChoice} beats ${compChoice} Computer Won :( `;
+    msg.innerText = `${compChoice} beats ${userChoice} Computer Won :( `;
 }
 const drawGame =(userChoice)=>{
     msg.innerText=`You both choose ${userChoice} it's a Draw`;

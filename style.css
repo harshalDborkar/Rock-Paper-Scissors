@@ -4,13 +4,23 @@
     color: #DBEDF3;
     font-family: 'Roboto', sans-serif;
 }
-body{
-    height: 100vh;
-    align-items: center;
-    text-align: center;
 
-    background: #00224D;
-    padding-top: 30px;
+.contain{
+    height: 350px;
+    width: 360px;
+    background-color: #00224D;
+    padding-top: 25px;
+    border-radius: 8px;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.4);
+}
+body{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: #021025;
+
 }
 .choices{
     display: flex;
@@ -40,11 +50,11 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #F73859;
+    background-color: #00224D;
     margin: 10px;
 }
 .score p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 .msg-container{
@@ -58,6 +68,7 @@ body{
 #msg{
     padding: 20px;
     border-radius: 10px;
-    background-color: #404B69;
+    background-color: rgb(64, 75, 104);
+    box-shadow: 0 6px 15px rgba(49, 56, 75, 0.4);
 }
 
