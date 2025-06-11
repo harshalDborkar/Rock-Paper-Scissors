@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <h2>Rock-Paper-Scissors</h2>
     <div class="choices">
         <div class="choice" id="rock">
-            <p>Rock</p>
+            <p><i class="fa-solid fa-hand-back-fist"></i></p>
         </div>
         <div class="choice" id="paper">
-            <p>Paper</p>
+            <p><i class="fa-solid fa-hand"></i></p>
         </div>
         <div class="choice" id="scissors">
-            <p>Scissors</p>
+            <p><i class="fa-solid fa-hand-scissors"></i></p>
         </div>
     </div>
 
     <div class="score-board">
-        <div class="score" id="you">
-            <p>0</p>
+        <div class="score" >
+            <p id="you">0</p>
             <p>you</p>
         </div>
-        <div class="score" id="computer">
-            <p>0</p>
+        <div class="score" >
+            <p id="computer">0</p>
             <p>computer</p>
         </div>
     </div>
 
+    <div class="msg-container">
+        <p id="msg">play your move</p>
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>
